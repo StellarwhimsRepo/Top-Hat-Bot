@@ -1,7 +1,7 @@
 {
   "name": "top-hat-bot",
   "version": "0.3.0",
-  "description": "A discord bot for the Top Hat Engineers server",
+  "description": "A discord bot for the Stellarwhims SE server",
   "engines": {
     "node": ">=8.1.1"
   },
@@ -11,8 +11,8 @@
     "start-dev": "nodemon ."
   },
   "author": {
-    "name": "Tim Howard",
-    "email": "13tim37@gmail.com"
+    "name": "Daegan Jukes",
+    "email": "contactfohse@gmail.com"
   },
   "config": {
     "prefix": "!"
@@ -30,6 +30,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/13Tim37/Top-Hat-Bot"
+    "url": "https://github.com/StellarwhimsRepo/Top-Hat-Bot"
   }
 }

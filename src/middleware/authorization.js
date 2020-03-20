@@ -4,7 +4,7 @@ const checkIfAdmin = (msg, command) => {
     if (allowedRole && msg.member.roles.has(allowedRole.id)) {
         command()
     } else {
-        msg.channel.send(':exclamation:You do not have authroization to use that command.')
+        msg.channel.send(':exclamation:You do not have authorization to use that command.')
     }
 }
 

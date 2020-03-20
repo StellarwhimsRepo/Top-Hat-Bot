@@ -2,7 +2,7 @@ const {createServer, getServer, getServers} = require('../../api/controllers/ser
 
 const addServer = (msg, args) => {
 
-    const data = createServer("Top Hat Naval", "Medieval Engineers", "me.tophatservers.com", "27019", "me.tophatservers.com", "8081", "2aqWMdCd5+EMtZBUnsxtNQ==")
+    const data = createServer("Stellarwhims", "Space Engineers", "stellarwhims.com", "27016", "stellarwhims.com", "27015", "gYHmSmDD8sY+CcZUXeiE9w==")
 }
 
 const listServers = msg => {

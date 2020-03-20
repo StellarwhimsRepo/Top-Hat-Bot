@@ -1,4 +1,4 @@
-# Top Hat Bot
+# Stellarwhims Bot
 
 Features include
 * Getting server information for a medieval engineers server

@@ -1,6 +1,6 @@
 require('dotenv').config()
 const Discord = require("discord.js")
-const mongoose = require("mongoose")
+//const mongoose = require("mongoose")
 const package = require("./package.json")
 const config = package.config
 
@@ -18,15 +18,15 @@ const factions = require('./src/commands/factions')
 // const checkClaims = require('./src/commands/checkclaim')
 
 const checkIfAdmin = require('./src/middleware/authorization')
-const [createServer, listServers] = require('./src/commands/servers')
+//const [createServer, listServers] = require('./src/commands/servers')
 
-mongoose.connect(process.env.MONGODB_URL, { useNewUrlParser: true });
+//mongoose.connect(process.env.MONGODB_URL, { useNewUrlParser: true });
 
-const db = mongoose.connection
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', function() {
-  console.log('Connected to DB!')
-});
+//const db = mongoose.connection
+//db.on('error', console.error.bind(console, 'connection error:'));
+//db.once('open', function() {
+//  console.log('Connected to DB!')
+//});
 
 const bot = new Discord.Client()
 
@@ -88,18 +88,18 @@ bot.on('message', msg => {
 
 	else if (command === 'poll') {
 		checkIfAdmin(poll(bot, msg, args))
-  }
+    }
     
-  // else if (command === 'chat') {
-	// 	checkIfAdmin(msg, () => chat(msg, args))
-  // }
+    else if (command === 'chat') {
+	 	checkIfAdmin(msg, () => chat(msg, args))
+    }
     
-  else if (command === 'claims') {
-		checkIfAdmin(msg, () => claims(msg, args))
+  else if (command === 'safezones') {
+  		checkIfAdmin(msg, () => claims(msg, args))
   }
     
   else if (command === 'factions') {
-		checkIfAdmin(msg, () => factions(msg, args))
+  		checkIfAdmin(msg, () => factions(msg, args))
   }
     
   // else if (command === 'checkclaims') {

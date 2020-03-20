@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\api",
+    "\\api\\controllers",
+    "\\api\\models",
+    "\\api\\routes",
+    "\\src",
+    "\\src\\commands",
+    "\\src\\middleware",
+    "\\src\\requests",
+    "\\src\\requests\\gamedig",
+    "\\src\\requests\\vrageApi"
+  ],
+  "SelectedNode": "\\src\\requests\\vrageApi\\chat.js",
+  "PreviewInSolutionExplorer": false
+}

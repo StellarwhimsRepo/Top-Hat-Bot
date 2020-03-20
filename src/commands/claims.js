@@ -3,7 +3,7 @@ const moment = require('moment')
 const [getClaims] = require('../requests/vrageApi/session')
 
 const claims = (msg, args) => {
-    msg.react('🎩')
+    //msg.react('🎩')
 
     getClaims().then(data => {
         const claimsFormatted = data.map(claim => {

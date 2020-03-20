@@ -3,7 +3,7 @@ const moment = require('moment')
 const [getChat, getAllChat, sendChat] = require('../requests/vrageApi/chat')
 
 const chat = (msg, args) => {
-    msg.react('🎩')
+    //msg.react('🎩')
 
     if (args.length > 0) {
 

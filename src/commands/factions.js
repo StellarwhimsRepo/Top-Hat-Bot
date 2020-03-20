@@ -3,7 +3,7 @@ const moment = require('moment')
 const [getFactions, getFaction] = require('../requests/vrageApi/faction')
 
 const factions = (msg, args) => {
-    msg.react('🎩')
+    //msg.react('🎩')
 
     if (args.length > 0) {
         getFaction(args[0]).then(faction => {

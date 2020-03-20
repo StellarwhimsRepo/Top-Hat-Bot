@@ -7,7 +7,7 @@ const activityChecker = bot => {
         topHatEngineersConfig,
         state => {
             state.maxplayers > 0 ? (
-                bot.user.setActivity(`SE: ${state.raw.numplayers} players | SS 1.00`, { type: 'PLAYING' })
+                bot.user.setActivity(`SE: ${state.raw.numplayers} players online`, { type: 'PLAYING' })
             ) : (
                 bot.user.setActivity(`Loading...`, {type: 'PLAYING'} )
             )

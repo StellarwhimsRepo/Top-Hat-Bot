@@ -48,7 +48,7 @@ class pollTable {
 let timerId
 
 const poll = async (bot, msg, args) => {
-    msg.react('🎩')
+    //msg.react('🎩')
 
     const table = new pollTable({
         title: args.join(' ') || 'TITLE'

@@ -3,7 +3,7 @@ const topHatEngineersConfig = require('../requests/gamedig/topHatEngineers')
 const [getServer] = require('../requests/vrageApi/server')
 
 const serverInfo = (msg) => {
-    msg.react("🎩")
+    //msg.react("🎩")
     msg.channel.startTyping();
 
     // getServer().then(data => {

@@ -2,7 +2,7 @@ const gamedig = require('../utils/gamedig')
 const topHatEngineersConfig = require('../requests/gamedig/topHatEngineers')
 
 const playerInfo = (msg) => {
-    msg.react("🎩")
+    //msg.react("🎩")
 
     gamedig(
         topHatEngineersConfig,

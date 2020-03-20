@@ -3,7 +3,7 @@ const moment = require('moment')
 const [getClaims, getPlayerClaims] = require('../requests/vrageApi/claims')
 
 const checkClaims = (bot, msg, args) => {
-    msg.react('🎩')
+    //msg.react('🎩')
 
     // getPlayerClaims().then(data => {
     //     messages = data.Messages.slice(data.Messages.length - 10, data.Messages.length)

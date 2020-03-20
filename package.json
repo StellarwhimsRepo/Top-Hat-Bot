@@ -1,7 +1,7 @@
 {
-  "name": "SE bot",
+  "name": "top-hat-bot",
   "version": "0.3.0",
-  "description": "A discord bot for the Stellarwhims SE server",
+  "description": "A discord bot for SE servers",
   "engines": {
     "node": ">=8.1.1"
   },

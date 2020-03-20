@@ -1,7 +1,6 @@
 {
   "ExpandedNodes": [
     "",
-    "\\api",
     "\\api\\controllers",
     "\\api\\models",
     "\\api\\routes",
@@ -12,6 +11,6 @@
     "\\src\\requests\\gamedig",
     "\\src\\requests\\vrageApi"
   ],
-  "SelectedNode": "\\src\\requests\\vrageApi\\chat.js",
+  "SelectedNode": "\\index.js",
   "PreviewInSolutionExplorer": false
 }

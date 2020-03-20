@@ -7,9 +7,9 @@ const activityChecker = bot => {
         topHatEngineersConfig,
         state => {
             state.maxplayers > 0 ? (
-                bot.user.setActivity(`Stellarwhims ${state.raw.numplayers}/${state.maxplayers}`, {type: 'PLAYING'} )
+                bot.user.setActivity(`${state.raw.numplayers}/${state.raw.maxplayers} players`, { type: 'Online' })
             ) : (
-                bot.user.setActivity(`Loading...`, {type: 'PLAYING'} )
+                bot.user.setActivity(`Loading...`, {type: 'Online'} )
             )
     }, error => {
         bot.user.setActivity('Server Offline', {type: 'WATCHING'})

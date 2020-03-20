@@ -1,5 +1,5 @@
 const topHatEngineers = {
-    type: 'medievalengineers',
+    type: 'spaceengineers',
     host: process.env.MEDIEVAL_DS_ADDRESS,
     port: process.env.MEDIEVAL_DS_PORT
 }

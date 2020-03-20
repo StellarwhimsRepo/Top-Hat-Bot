@@ -86,21 +86,21 @@ bot.on('message', msg => {
 		: msg.channel.send('The votes feature is currently disabled')
 	}
 
-	else if (command === 'poll') {
-		checkIfAdmin(poll(bot, msg, args))
-    }
+	//else if (command === 'poll') {
+	//	checkIfAdmin(poll(bot, msg, args))
+ //   }
     
-    else if (command === 'chat') {
-	 	checkIfAdmin(msg, () => chat(msg, args))
-    }
+   // else if (command === 'chat') {
+	 	//checkIfAdmin(msg, () => chat(msg, args))
+   // }
     
-  else if (command === 'safezones') {
-  		checkIfAdmin(msg, () => claims(msg, args))
-  }
+    //else if (command === 'safezones') {
+  		//checkIfAdmin(msg, () => claims(msg, args))
+    //}
     
-  else if (command === 'factions') {
-  		checkIfAdmin(msg, () => factions(msg, args))
-  }
+    //else if (command === 'factions') {
+  		//checkIfAdmin(msg, () => factions(msg, args))
+    //}
     
   // else if (command === 'checkclaims') {
 	// 	checkClaims(bot, msg, args)

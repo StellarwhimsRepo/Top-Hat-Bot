@@ -1,7 +1,7 @@
 {
   "name": "top-hat-bot",
   "version": "0.3.0",
-  "description": "A discord bot for SE servers",
+  "description": "A discord bot fork by Daegan for SE servers",
   "engines": {
     "node": ">=8.1.1"
   },
@@ -11,8 +11,8 @@
     "start-dev": "nodemon ."
   },
   "author": {
-    "name": "Daegan Jukes",
-    "email": "contactfohse@gmail.com"
+    "name": "Tim Howard",
+    "email": "13tim37@gmail.com"
   },
   "config": {
     "prefix": "!"

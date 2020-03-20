@@ -48,8 +48,8 @@ const serverInfo = (msg) => {
             })
 
             fields.push({
-                name: `Mods (${mods.length})`,
-                value: `${(mods.length > 1 ? `${mods.join(', ')}` : 'None')}`
+                name: `Mods List`,
+                value: `https://steamcommunity.com/sharedfiles/filedetails/?id=2021507024`
             })
 
             state.maxplayers > 0 && (

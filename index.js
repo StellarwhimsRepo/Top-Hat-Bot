@@ -114,9 +114,9 @@ bot.on('message', msg => {
 	// 	checkIfAdmin(msg, () => createServer(msg, args))
   // }
     
-  else if (command === 'listservers') {
-		checkIfAdmin(msg, () => listServers(msg))
-	}
+ // else if (command === 'listservers') {
+	//	checkIfAdmin(msg, () => listServers(msg))
+	//}
 })
 
 bot.on('error', err => {

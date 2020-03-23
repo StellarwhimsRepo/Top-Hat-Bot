@@ -76,9 +76,9 @@ bot.on('message', msg => {
 		: msg.channel.send(`Changelog: ${package.repository.url}/releases`)
 	}
 
-	else if (command === 'suggest') {
-		suggest(msg, args)
-	}
+	//else if (command === 'suggest') {
+	//	suggest(msg, args)
+	//}
 
 	else if (command === 'votes') {
 		process.env.MEDIEVAL_ENGINEERS_NET_API_KEY

@@ -1,8 +1,8 @@
 # Stellarwhims Bot
 
 Features include
-* Getting server information for a medieval engineers server
-* Getting player information for a medieval engineers server
+* Getting server information for a space engineers server
+* Getting player information for a space engineers server
 
 ## Prerequisites
 
